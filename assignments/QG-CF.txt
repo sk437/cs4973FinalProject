@@ -1,0 +1,2 @@
+QG:subtask060_ropes_question_generation4,subtask031_winogrande_question_generation_object,
+CF:subtask046_miscellaenous_question_typing,subtask021_mctaco_grammatical_logical,

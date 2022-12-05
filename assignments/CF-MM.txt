@@ -1,0 +1,2 @@
+CF:subtask049_multirc_questions_needed_to_answer,subtask057_multirc_classify_incorrect_answer,
+MM:subtask034_winogrande_question_modification_object,subtask030_winogrande_full_person,

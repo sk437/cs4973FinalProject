@@ -1,0 +1,2 @@
+AG:subtask024_cosmosqa_answer_generation,subtask002_quoref_answer_generation,
+CF:subtask018_mctaco_temporal_reasoning_presence,subtask020_mctaco_span_based_question,

@@ -1,0 +1,2 @@
+QG:subtask026_drop_question_generation,subtask032_winogrande_question_generation_person,
+MM:subtask030_winogrande_full_person,subtask038_qasc_combined_fact,

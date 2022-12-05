@@ -1,0 +1,25 @@
+t5 all tasks
+QG: 0.212
+AG: 0.373
+IAG: 0.226
+CF: 0.229
+MM: 0.750
+VF: 0.261
+bart all tasks
+QG: 0.183
+AG: 0.081
+IAG: 0.124
+CF: 0.189
+MM: 0.210
+VF: 0.097
+
+using t5 for further experimentation
+individual tasks:
+QG: 0.243
+AG: 0.377
+IAG: 0.071
+CF: 0.288
+MM: 0.278
+
+pairs:
+AG/QG: 0.432(QG), 0.392(AG)
