@@ -159,8 +159,8 @@ if __name__ == "__main__":
     training_dataset = Dataset.from_pandas(df_training)
 
     def convert_to_features(example_batch):
-        input_encodings = tokenizer.batch_encode_plus(example_batch['Instructions'], pad_to_max_length=True, max_length=128, truncation=True)
-        target_encodings = tokenizer.batch_encode_plus(example_batch['Outputs'], pad_to_max_length=True, max_length=128, truncation=True)
+        input_encodings = tokenizer.batch_encode_plus(example_batch['Instructions'], padding='max_length', max_length=128, truncation=True)
+        target_encodings = tokenizer.batch_encode_plus(example_batch['Outputs'], padding='max_length', max_length=128, truncation=True)
     
         labels = target_encodings['input_ids']
     

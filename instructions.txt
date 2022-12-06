@@ -1,0 +1,8 @@
+I spent like 4 hours trying to get a one-line install to work but couldn't do it so here are the commands for each package individually
+(do this in conda environment)
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install transformers
+conda install datasets
+conda install pandas
+conda install sentencepiece
+conda install "dill<0.3.5"
