@@ -15,3 +15,5 @@ usage: python FineTuneModel.py <assignments> <model-name> <model-type>
 EvaluateModel - evaluates a model on the specified tasks
 <model-name> and <model-type> should be the same as FineTuneModel, <model-name> should be the name of the folder/name of the checkpoint to load and evaluate
 usage: python EvaluateModel.py <assignments> <model-name> <model-type>
+
+GenerateInterestingQAPairs can also be run from the command line, but should not be needed for evaluation of models - this script is just designed to print questions and answers to which two different models had very different responses. This is run similarly to EvaluateModel, except two models and model types must be provided (in the order <model_0? <model_1> <model_type_0> <model_type_1>). Note that this script will try and find questions for which model 0 performs better than model 1, and not the other way around.
